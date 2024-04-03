@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Virtual Keyboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+
+        <h2>Virtual Keyboard</h2>
+
+        <div class="line"></div>
+        
+        <p class="txt1" id="txt"></p>
+
+        <div class="keys">
+
+            <div class="fline">
+                <button class="btn" onclick="addQ()">Q</button>
+                <button class="btn" onclick="addW()">W</button>
+                <button class="btn" onclick="addE()">E</button>
+                <button class="btn" onclick="addR()">R</button>
+                <button class="btn" onclick="addT()">T</button>
+                <button class="btn" onclick="addY()">Y</button>
+                <button class="btn" onclick="addU()">U</button>
+                <button class="btn" onclick="addI()">I</button>
+                <button class="btn" onclick="addO()">O</button>
+                <button class="btn" onclick="addP()">P</button>
+            </div>
+
+            <div class="sline">
+                <button class="btn" onclick="addA()">A</button>
+                <button class="btn" onclick="addS()">S</button>
+                <button class="btn" onclick="addD()">D</button>
+                <button class="btn" onclick="addF()">F</button>
+                <button class="btn" onclick="addG()">G</button>
+                <button class="btn" onclick="addH()">H</button>
+                <button class="btn" onclick="addJ()">J</button>
+                <button class="btn" onclick="addK()">K</button>
+                <button class="btn" onclick="addL()">L</button>
+            </div>
+
+            <div class="tline">
+                <button class="btn" onclick="addZ()">Z</button>
+                <button class="btn" onclick="addX()">X</button>
+                <button class="btn" onclick="addC()">C</button>
+                <button class="btn" onclick="addV()">V</button>
+                <button class="btn" onclick="addB()">B</button>
+                <button class="btn" onclick="addN()">N</button>
+                <button class="btn" onclick="addM()">M</button>
+            </div>
+
+            <div class="lline">
+                <button class="btn" onclick="space()" id="space">Space</button>
+                <button class="btn" onclick="backspace()" id="bspace">Backspace</button>
+                <button class="btn" onclick="clean()" id="clear">Clear All</button>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="vkeyb.js"></script>
+</body>
+</html>
