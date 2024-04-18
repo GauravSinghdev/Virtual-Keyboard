@@ -30,6 +30,7 @@ body{
 .line{
     border: 1px solid white;
     margin-bottom: 20px;
+    text-color: #322C2B;
 }
 
 h2{
